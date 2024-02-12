@@ -1,0 +1,44 @@
+.circle-icon {
+    width: 80px;
+    height: 50px;
+    position: fixed;
+    right: 1px;
+    top: 80px;
+}
+
+.icon {
+    color: #100516;
+    font-size: 25px;
+}
+
+/* .icon:hover {
+    color: blue;
+    transition: all .3s ease;
+    -webkit-transition: all .3s ease;
+    -moz-transition: all .3s ease;
+    -ms-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    width: 50%;
+    height: 50%;
+} */
+
+.item-count {
+    position: relative;
+    top: -35%;
+    right: -15%;
+    background-color: rgb(10, 10, 10);
+    color: rgb(252, 251, 251);
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    font-size: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.part2{
+    position: relative;
+    left: -35%; 
+    top:-20px;
+    
+}

@@ -129,3 +129,33 @@
     margin-left: 5px;
     font-weight: 10px;
 }
+
+/* button
+.animateButton {
+    background-color: transparent;
+    border: 2px solid #333;
+    color: #333;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-size 0.4s ease;
+    background-image: radial-gradient(circle, #333 0%, #333 10%, transparent 10%, transparent 100%);
+    background-position: left; Start from left
+}
+
+.animateButton:hover {
+    background-size: 200% 200%;
+    background-position: center;
+    animation: expandBackground 0.5s;
+}
+
+
+@keyframes expandBackground {
+    0% {
+        background-size: 100% 100%;
+    }
+
+    100% {
+        background-size: 200% 500%;
+    }
+} */

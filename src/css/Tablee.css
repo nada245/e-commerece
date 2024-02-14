@@ -1,0 +1,42 @@
+.pTable {
+    position: absolute;
+    top: 90%;
+    right: 20%;
+    
+    height: 5rem;
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+/* Table.css */
+
+.table {
+    /* border-collapse: collapse;  */
+     width: 100%;
+     border-spacing: 10px; 
+}
+
+.table td,
+.table th {
+    border: 1px solid #0e0e0e;
+    padding: 8px;
+    text-align: left;
+    
+}
+
+.table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+/* .table tr:hover {
+    background-color: #ddd;
+} */
+
+.table th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    /* background-color: #4CAF50; */
+    color: white;
+}

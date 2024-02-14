@@ -6,7 +6,7 @@ const data = [
     {
         id: 1,
         label: "there are many clothres that we hope liked this",
-        type: "All",
+        type: "Kid'sclothes",
     },
     {
         id: 2,
@@ -29,12 +29,7 @@ const data = [
         label: "However, there are scenarios in which it’s useful to allow users to select multiple items.",
         type: "men'clothes",
     },
-    {
-        id: 6,
-        label: "These are often used by e-commerce websites that may have a lot of links",
-        type: "men'clothes",
-    },
-];
+]
 const Part2 = () => {
     // const [selectedOption, setSelectedOption] = useState('');
     // const handleChange = (event) => {
@@ -61,7 +56,7 @@ const Part2 = () => {
 
         <section className="k-my-8">
             <form className="k-form k-mb-4">
-                <label className="k-label k-mb-3" style={{fontSize:"20px",fontWeight:"blod",outline:"none"}}>HERE YOU CAN TAKE YOU NEED</label>
+                <label className="k-label k-mb-3" style={{fontSize:"20px",fontWeight:"blod"}}>HERE YOU CAN TAKE YOU NEED</label>
                 <DropDownList data={categories} onChange={e => setCategory(e.value)} />
             </form>
 

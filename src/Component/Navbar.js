@@ -71,7 +71,9 @@ const Navbar = () => {
                         <div className='mobile'>
                             <FaMobileAlt />
                             <p>125-785-463</p>
+
                         </div>
+
                     </div>
                 </div>
 

@@ -7,21 +7,21 @@ const PartNav = () => {
 
     return (
         <>
-            <div style={{ display: "flex",background:"#a0a1a315",position:"fixed",width:"100%",height:"50%" }}>
-                <div style={{ position: "relative", display: "flex" }}>
+            <div style={{ display: "flex",background:"#a0a1a315",position:"fixed",width:"100%",height:"20%" }}>
+                <div style={{ position: "relative" }}>
                     <a href='/'>
                         <img style={{ width: "5%", borderRadius: "80px", marginRight: "20rem" }} src={logo} alt='/' />
                     </a>
-                    <div style={{ position: "relative", left: "-78rem", top: "35px" }}>
-                        <p style={{ fontWeight: "bold", fontSize: "2rem", position: "fixed", top: "47px",left:"5%",color:"black" }}>SHOPPING</p>
+                    <div style={{ position: "absolute", left: "-78rem", top: "35px" }}>
+                        <p style={{ fontWeight: "bold", fontSize: "2rem", position: "fixed", top: "47px",left:"6%",color:"black" }}>SHOPPING</p>
                     </div>
                 </div>
                 <div className='part2'>
                     <Part2 />
                 </div>
-                <div className='circle-icon'>
+                <div className='circle-icon' >
                     <LuShoppingCart className='icon' />
-                    <span class="item-count">5</span>
+                    <span className="item-count">5</span>
                 </div>
             </div>
 

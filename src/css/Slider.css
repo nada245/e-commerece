@@ -1,5 +1,5 @@
 .slider {
-    width: 100%;
+    width: 100vw;
     height: 60%;
     position: absolute;
     left: 0;
@@ -15,8 +15,8 @@
     -ms-border-radius: 50%;
     -o-border-radius: 50%;
     width: 15vw;
-    /* object-fit: contain; */
-    margin-left: -20%;
+    object-fit: contain;
+    margin-left: -20vw;
 }
 
 .flex {

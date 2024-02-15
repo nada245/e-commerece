@@ -1,45 +1,22 @@
-.circle-icon {
-    width: 80px;
-    height: 50px;
-    position: fixed;
-    right: 1px;
-    top: 80px;
-}
-
-.icon {
+/* .icon {
     color: #121212;
     font-size: 25px;
-}
-
-/* .icon:hover {
-    color: blue;
-    transition: all .3s ease;
-    -webkit-transition: all .3s ease;
-    -moz-transition: all .3s ease;
-    -ms-transition: all .3s ease;
-    -o-transition: all .3s ease;
-    width: 50%;
-    height: 50%;
+    position: fixed;
+    top: 15%;
+    right: 2%;
 } */
 
-.item-count {
+.shopping {
     position: relative;
-    top: -35%;
-    right: -15%;
-    color: rgb(252, 251, 251);
-    border-radius: 50%;
-    width: 15px;
-    height: 15px;
-    font-size: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    right: -90px;
+    top: -40px;
+    font-weight: bold;
+    font-size: 20px;
 }
 
 .part2 {
-    position: absolute;
-    left: 37%;
+    position: relative;
+    left: -5%;
     top: -8%;
-
-
+    z-index: 1;
 }

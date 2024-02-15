@@ -7,22 +7,23 @@ const PartNav = () => {
 
     return (
         <>
-            <div style={{ display: "flex",background:"#a0a1a315",position:"fixed",width:"100%",height:"20%" }}>
+            <div style={{ display: "flex",background:"#a0a1a315",position:"relative",width:"100%",height:"20%" }}>
                 <div style={{ position: "relative" }}>
-                    <a href='/'>
-                        <img style={{ width: "5%", borderRadius: "80px", marginRight: "20rem" }} src={logo} alt='/' />
-                    </a>
-                    <div style={{ position: "absolute", left: "-78rem", top: "35px" }}>
-                        <p style={{ fontWeight: "bold", fontSize: "2rem", position: "fixed", top: "47px",left:"6%",color:"black" }}>SHOPPING</p>
+                    
+                        <img style={{ width: "5%", borderRadius: "80px",position:"relative",bottom:"-6%",right:"-12px" }} src={logo} alt='/' />
+            
+                    <div className='shopping'>
+                        <p>SHOPPING</p>
                     </div>
                 </div>
                 <div className='part2'>
                     <Part2 />
                 </div>
-                <div className='circle-icon' >
-                    <LuShoppingCart className='icon' />
-                    <span className="item-count">5</span>
-                </div>
+                {/* <div className='logo'>
+                <LuShoppingCart className='icon' />
+                </div> */}
+                    
+                
             </div>
 
         </>
@@ -30,3 +31,5 @@ const PartNav = () => {
 }
 
 export default PartNav
+
+

@@ -18,17 +18,7 @@ const data = [
         label: "there are many collection of woman'clothes ",
         type: "Women'clothes",
     },
-    {
-        id: 4,
-        label: "there are many clothres ",
-        type: "Women'clothes",
-    },
     
-    {
-        id: 5,
-        label: "However, there are scenarios in which it’s useful to allow users to select multiple items.",
-        type: "men'clothes",
-    },
 ]
 const Part2 = () => {
     // const [selectedOption, setSelectedOption] = useState('');

@@ -32,7 +32,7 @@ const Navbar = () => {
     return (
         <>
 
-            <div style={{ display: 'flex', justifyContent: 'space-between', background: '#ece9ee', color: 'black', padding: "15px", height: "2rem" }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', background: '#ece9ee', color: 'black', padding: "15px", height: "2.5rem" }}>
                 {/* left side */}
                 <div>
                     <div className='part1'>
@@ -81,7 +81,7 @@ const Navbar = () => {
                 <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", position: "relative", left: "-4%" }}>
                     <div style={{ display: "flex", justifyContent: "space-between", padding: "30px" }}>
                         <FontAwesomeIcon icon={faExchangeAlt} />
-                        <div style={{ position: 'relative', right: "-20px", top: "-0.4rem" }}>
+                        <div style={{ position: 'relative', right: "-20px", top: "-0.2rem" }}>
                             <a style={{ textDecoration: "none", color: "black" }} href='/'>Compare</a>
                         </div>
                     </div>
@@ -89,7 +89,7 @@ const Navbar = () => {
 
                     <div style={{ display: "flex", justifyContent: "space-around", padding: "30px", margin: "-10%" }}>
                         <FaRegHeart />
-                        <div style={{ position: 'relative', right: "-18px", top: "-0.4rem" }}>
+                        <div style={{ position: 'relative', right: "-18px", top: "-0.2rem" }}>
                             <a style={{ textDecoration: "none", color: "black" }} href='/'>Love</a>
                         </div>
                     </div>
@@ -97,7 +97,7 @@ const Navbar = () => {
 
                     <div style={{ display: "flex", justifyContent: "space-between", padding: "30px" }}>
                         <SlLogin />
-                        <div style={{ position: 'relative', right: "-18px", top: "-0.4rem" }}>
+                        <div style={{ position: 'relative', right: "-18px", top: "-0.2rem" }}>
                             <a style={{ textDecoration: "none", color: "black" }} href='/'>Login</a>
                         </div>
                     </div>

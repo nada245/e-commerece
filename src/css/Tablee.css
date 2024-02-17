@@ -1,6 +1,6 @@
 .pTable {
     position: absolute;
-    top: 90%;
+    top: 95%;
     right: 20%;
     height: 5rem;
     width: 50vw;
@@ -8,14 +8,15 @@
     justify-content: space-between;
 }
 .table {
-    width: 100%;
+    width: 120%;
     border-spacing: 15px;
     margin-left: -40px;
+    height: 9rem;
 }
 .table td,
 .table th {
     border: 1px solid #0e0e0e;
-    padding: 8px;
+    padding: 5px;
     text-align: left;
 }
 

@@ -68,7 +68,7 @@ const Tablee = () => {
                     <tr>
                         <td style={{ color: "black", width: "25%" }}>
                             <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-                                <div style={{ position: "relative", top: "35px",fontSize:"30px", left: "-5%", padding: "4px" }}>
+                                <div style={{ position: "relative", top: "10px", fontSize: "30px", left: "-5%", padding: "4px" }}>
                                     <FaCar />
                                 </div>
                                 <div>
@@ -79,7 +79,7 @@ const Tablee = () => {
                         </td>
                         <td style={{ color: "black", width: "25%" }}>
                             <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-                                <div style={{ position: "relative", top: "35px",fontSize:"30px", left: "-5%", padding: "4px" }}>
+                                <div style={{ position: "relative", top: "10px", fontSize: "30px", left: "-5%", padding: "4px" }}>
                                     <TfiMoney />
                                 </div>
                                 <div>
@@ -90,7 +90,7 @@ const Tablee = () => {
                         </td>
                         <td style={{ color: "black", width: "25%" }}>
                             <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-                                <div style={{ position: "relative", top: "35px", fontSize:"30px",left: "-5%", padding: "4px" }}>
+                                <div style={{ position: "relative", top: "10px", fontSize: "30px", left: "-5%", padding: "4px" }}>
                                     <RiCustomerService2Fill />
                                 </div>
                                 <div>
@@ -101,7 +101,7 @@ const Tablee = () => {
                         </td>
                         <td style={{ color: "black" }}>
                             <div style={{ display: "flex", justifyContent: "space-evenly" }}>
-                                <div style={{ position: "relative", top: "35px",fontSize:"30px", left: "-5%", padding: "4px" }}>
+                                <div style={{ position: "relative", top: "10px", fontSize: "30px", left: "-5%", padding: "4px" }}>
                                     <MdOutlinePayments />
                                 </div>
                                 <div>

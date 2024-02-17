@@ -24,7 +24,7 @@ const Sliderr = () => {
                     <div>
                         <p style={{fontWeight:'bold',fontSize:"40px"}}>New Tranding</p>
                         <h1 style={{fontWeight:'bold',fontSize:"70px"}}>Sofa Collection</h1>
-                        <p style={{fontWeight:'bold',fontSize:"20px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus <br/>blandit massa enim. Nullam id varius nunc id varius nunc.</p>
+
                         <button className='animateButton' style={{borderRadius:"30px"}}>SHOP NOW</button>
                     </div>
                     <div>   <img src={sofa1} className='img' alt='/' /></div>

@@ -4,6 +4,7 @@ import PartNav from "./Component/PartNav";
 import '@progress/kendo-theme-default/dist/all.css';
 import Sliderr from "./Component/Sliderr";
 import Tablee from "./Component/Tablee";
+import Cards from "./Component/Card/Cards";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
 <PartNav/>
 <Sliderr/>
 <Tablee/>
+<Cards/>
     </div>
   );
 }

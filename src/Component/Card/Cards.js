@@ -1,7 +1,9 @@
 import React from "react";
 import RateStars from '../Card/RateStars'
 import '../Card/Cards.css'
-
+import { FaRegHeart } from "react-icons/fa6";
+import { MdIosShare } from "react-icons/md";
+import { TbBrandGoogleBigQuery } from "react-icons/tb";
 const products = [
     {
         id: 1,
@@ -80,7 +82,7 @@ const products = [
         description:
             " Mauris convallis diam nibh, non malesuada enim facilisis non. Etiam sapien augue, molestie a porta sed",
         price: 149,
-        image: require("../Card//product-5.jpg")
+        image: require("./1.png")
 
     },
 ];
@@ -108,14 +110,22 @@ const Cards = () => {
                                 <button className="btn">
                                     Details
                                 </button>
-                                <button className="btn">
-                                    Add to cart
-                                </button>
+                                <div className="iconns">
+                                    <div className="iconn1">
+                                        <FaRegHeart />
+                                    </div>
+                                    <div className="iconn2">
+                                        <MdIosShare />
+                                    </div>
+                                    <div className="iconn3">
+                                        <TbBrandGoogleBigQuery />
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     ))}
                 </div>
-                
+
             </main>
         </div>
     )

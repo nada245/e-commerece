@@ -1,15 +1,14 @@
 import React, { useState } from 'react'
-import usaFlag from '../Assests/usk.png'
-import ukFlag from '../Assests/uk.png'
-import egFlag from '../Assests/EGYPT.png'
+import usaFlag from '../header/usk.png'
+import ukFlag from '../header/uk.png'
+import egFlag from '../header/EGYPT.png'
 import { Dropdown } from 'react-bootstrap';
 import { FaMobileAlt } from 'react-icons/fa'
-import { NavLink } from 'react-router-dom';
 import { FaRegHeart } from "react-icons/fa";
 import { SlLogin } from "react-icons/sl";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faExchangeAlt } from '@fortawesome/free-solid-svg-icons';
-import '../css/Navbar.css'
+import '../header/Navbar.css'
 const Navbar = () => {
     const [selectedOption, setSelectedOption] = useState({ label: "USK", flag: usaFlag });
     const [isDropdownOpen, setIsDropdownOpen] = useState(false)
@@ -32,7 +31,7 @@ const Navbar = () => {
     return (
         <>
 
-            <div style={{ display: 'flex', justifyContent: 'space-between', background: '#ece9ee', color: 'black', padding: "15px", height: "2.5rem" }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', background: '#ece9ee', color: 'black', padding: "25px", height: "3.5rem" }}>
                 {/* left side */}
                 <div>
                     <div className='part1'>

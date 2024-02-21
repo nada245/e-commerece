@@ -2,10 +2,10 @@ import React from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
-import '../css/Slider.css'
-import sofa1 from '../Assests/41eOmsLsfSL._AC_.jpg'
-import sofa2 from '../Assests/5151xdopdjL._AC_SX679_.jpg'
-import sofa3 from '../Assests/51k4rZhxS7L._AC_SX679_.jpg'
+import '../sliderr/Slider.css'
+import sofa1 from '../sliderr/41eOmsLsfSL._AC_.jpg'
+import sofa2 from '../sliderr/5151xdopdjL._AC_SX679_.jpg'
+import sofa3 from '../sliderr/51k4rZhxS7L._AC_SX679_.jpg'
 const Sliderr = () => {
     const prop = {
         // dots: true,
